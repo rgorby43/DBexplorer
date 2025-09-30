@@ -1,0 +1,13 @@
+[package]
+name = "sql_terminal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+rustyline = "14"
+comfy-table = "7"
+rusqlite = { version = "0.31", features = ["bundled"] }
+regex = "1"
+crossterm = "0.27"
+ratatui   = "0.26"
